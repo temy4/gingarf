@@ -41,6 +41,12 @@ div#tagcloud a:hover{
 	color: gray;
 }
 
+div.tail-text{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+}
+
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
