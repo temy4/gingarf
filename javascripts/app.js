@@ -18,6 +18,11 @@
     $.fn.foundationClearing         ? $doc.foundationClearing() : null;
 
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
+
+    $('.cover').mosaic({
+      animation : 'slide',  //fade or slide
+      hover_x   : '400px'   //Horizontal position on hover
+    });
   });
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
